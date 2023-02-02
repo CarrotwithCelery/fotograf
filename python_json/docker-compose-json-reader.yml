@@ -1,0 +1,9 @@
+version: '3'
+services:
+  json_loader:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
+
